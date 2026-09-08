@@ -66,9 +66,13 @@ Agilent control probes were removed. Expression values were log-transformed and 
  
 ### Gene set enrichment:
  
-- GSEA against KEGG pathways in `dox_wt` showed upregulation of p53 signaling and DNA replication pathways, alongside downregulation of cardiac muscle contraction, calcium signaling, and cardiomyopathy-related pathways (hypertrophic, dilated, arrhythmogenic right ventricular). This is consistent with the established mechanism of doxorubicin cardiotoxicity: Top2b-mediated DNA double-strand breaks trigger a p53-driven damage response, which in turn suppresses genes required for normal cardiomyocyte contractile function.
- 
-- GSEA was also run on `dox_top2b` and `interaction`; results tables are included in the analysis output. Given that `dox_top2b` returned 0 individually FDR-significant genes, pathway-level results for that contrast are reported as a table only and not plotted, to avoid implying a stronger effect than the single-gene analysis supports.
+- GSEA against KEGG pathways in `dox_wt` showed upregulation of p53 signaling and DNA replication pathways, alongside downregulation of cardiac muscle contraction, calcium signaling, and cardiomyopathy-related pathways (hypertrophic, dilated, arrhythmogenic right ventricular). This is consistent with the established mechanism of doxorubicin cardiotoxicity: Top2b-mediated DNA double-strand breaks trigger a p53-driven damage response, which in turn suppresses genes required for normal cardiomyocyte contractile function. The top-ranked pathway in `dox_wt`, KEGG_SYSTEMIC_LUPUS_ERYTHEMATOSUS (padj = 2.2 × 10⁻¹²), is shown below as a classic running-enrichment-score plot. 
+
+![](/images/dox_kegg.jpg)
+
+![](/images/gsea_kegg.jpg)
+
+![](/images/lupus.jpg)
 
 ## Discussion:
 
