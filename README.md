@@ -105,3 +105,5 @@ Agilent control probes were removed. Expression values were log-transformed and 
 ## Discussion:
 
 ## Acknowledgement:
+
+This project was completed as part of my RNA-seq learning journey and was inspired by concepts and workflows introduced in the DataCamp course ["Differential Expression Analysis with Limma in R"](https://app.datacamp.com/learn/courses/differential-expression-analysis-with-limma-in-r). Portions of the analysis structure and some code elements were adapted from course exercises and instructional materials for educational purposes. The transcriptomic analysis, downstream analyses, and interpretation were conducted as a public reanalysis project.
