@@ -49,8 +49,22 @@ Agilent control probes were removed. Expression values were log-transformed and 
 ### Sample structure and normalization:
  
 - Density plots of raw log-intensities showed a modest right-shift in wild-type arrays relative to Top2b-knockout arrays prior to normalization; this resolved into near-identical distributions across all 12 arrays after quantile normalization, as expected, and this shape was preserved after low-expression filtering — indicating the normalization behaved as intended and no arrays required exclusion on QC grounds.
- 
-- MDS of the filtered, normalized data separated samples cleanly along the first dimension (53% of variance) by genotype, with wild-type and Top2b-knockout samples forming two distinct clusters (Fig. MDS-genotype). This confirms genotype as the dominant source of transcriptional variance in this dataset, consistent with a global regulatory role for Top2b in cardiomyocytes independent of doxorubicin exposure. Direct inspection of *Top2b* probe intensity confirmed clear separation between genotypes in the expected direction, validating that the knockout samples are correctly labeled and the knockdown is transcriptionally detectable.
+
+![](/images/gg_Density.jpg)
+
+![](/images/base_limma_Density.jpg)
+
+- MDS of the filtered, normalized data separated samples cleanly along the first dimension (53% of variance) by genotype, with wild-type and Top2b-knockout samples forming two distinct clusters (Fig. MDS-genotype). This confirms genotype as the dominant source of transcriptional variance in this dataset, consistent with a global regulatory role for Top2b in cardiomyocytes independent of doxorubicin exposure.
+
+![](/images/mds_geno.jpg)
+
+![](/images/mds_treat.jpg)
+
+- Direct inspection of *Top2b* probe intensity confirmed clear separation between genotypes in the expected direction, validating that the knockout samples are correctly labeled and the knockdown is transcriptionally detectable.
+
+![](/images/box.jpg)
+
+![](/images/box_gg.jpg)
  
 ### Differential expression analysis:
  
@@ -63,6 +77,20 @@ Agilent control probes were removed. Expression values were log-transformed and 
 - Wild-type hearts mounted a large transcriptional response to doxorubicin 16 hours post-injection, with over a quarter of tested genes significantly altered. In contrast, Top2b-knockout hearts showed no genes reaching FDR-significance for the same doxorubicin challenge. The p-value distribution for `dox_wt` was strongly right-skewed (excess of small p-values, as expected under true signal), while the `dox_top2b` distribution was close to uniform — the shape expected under the null and independent confirmation that the zero-DEG result is not an artifact of the significance cutoff. The `interaction` contrast was significant for 3,278 genes, of which the large majority (3,207) overlapped with the `dox_wt` gene set, indicating that most of the genotype-dependent difference in doxorubicin response is explained by genes that respond in wild-type hearts but fail to respond in the knockout, rather than by a distinct interaction-specific gene program.
  
 - This pattern reproduces the central finding of the original GSE40289 study: cardiomyocyte-specific deletion of Top2b blunts the transcriptional response to doxorubicin.
+
+![](/images/venn.jpg)
+
+![](/images/volc_limm.jpg)
+
+![](/images/volc_gg.jpg)
+
+![](/images/int_volc.jpg)
+
+- The p-value distribution for `dox_wt` was strongly right-skewed (excess of small p-values, as expected under true signal), while the `dox_top2b` distribution was close to uniform, the shape expected under the null and independent confirmation that the zero-DEG result is not an artifact of the significance cutoff.
+
+![](/images/hist.jpg)
+
+![](/images/hist2.jpg)
  
 ### Gene set enrichment:
  
