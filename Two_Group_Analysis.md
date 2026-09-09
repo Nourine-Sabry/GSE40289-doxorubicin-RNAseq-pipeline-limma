@@ -1,6 +1,4 @@
-# Mechanism of doxorubicin-induced cardiotoxicity (GSE40289)
-
-![Banner](images/BannerImg.jpg)
+# Dox WT vs DOX Top2b
 
 ## About the project:
 
