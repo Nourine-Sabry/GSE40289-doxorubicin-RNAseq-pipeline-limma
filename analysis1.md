@@ -10,6 +10,8 @@ Doxorubicin is a drug used to treat certain types of cancer. It has been found t
 
 ## Research question:
 
+Does the transcriptional response to doxorubicin in cardiomyocytes depend on the presence of Top2b?
+
 ## Methodology:
 
 ### Obtaining the data:
