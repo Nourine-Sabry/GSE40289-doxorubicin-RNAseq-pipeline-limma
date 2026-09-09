@@ -10,10 +10,10 @@ The paper's data is public as GEO accession [GSE40289](https://www.ncbi.nlm.nih.
 
 ## Structure
 
-**[Analysis 1: DataCamp reproduction](./analysis1_results.md)**
+**[Analysis 1: DataCamp reproduction](./analysis1.md)**
 Uses the 16 hour timepoint only (12 samples, the 2x2 genotype by treatment design), matching the scope of a limma teaching exercise from DataCamp's ["Differential Expression Analysis with limma in R"](https://app.datacamp.com/learn/courses/differential-expression-analysis-with-limma-in-r) course.
 
-**[Analysis 2: reproducing the original paper](./analysis2_results.md)**
+**[Analysis 2: reproducing the original paper](./analysis2.md)**
 Extends the pipeline to the full dataset, all 24 samples across genotype, treatment, and both timepoints (16hr and 72hr). The aim here was to see how closely I can reproduce Zhang et al.'s results.
 
 ## Data and tools:
