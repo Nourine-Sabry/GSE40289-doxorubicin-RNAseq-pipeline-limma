@@ -66,7 +66,7 @@ The top 50 most variable genes cluster samples into two genotype clusters, with 
 
 ### Volcano plots:
 
-![](/images/dox_wt_16.jpg)
+![](/images/dox_wt_16.png)
 
 ![](/images/dox_wt_72.jpg)
 
