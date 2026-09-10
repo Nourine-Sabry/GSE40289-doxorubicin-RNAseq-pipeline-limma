@@ -104,6 +104,20 @@ Agilent control probes were removed. Expression values were log-transformed and 
 
 ## Discussion:
 
+- Transcriptomic profiling at 16 hours post-doxorubicin exposure supports a mechanism of cardiomyocyte injury mediated primarily through DNA damage rather than diffuse, nonspecific toxicity. In wild-type hearts, upregulated genes were significantly enriched for p53 signaling and DNA replication pathways. P53 functions as the principal cellular sensor of DNA double-strand breaks, and doxorubicin is established to induce such breaks specifically via topoisomerase IIβ (Top2b) inhibition. Consequently, activation of the p53 transcriptional program within 16 hours is consistent with a direct genotoxic mechanism, distinct from secondary effects downstream of generalized oxidative stress.
+
+- Conversely, downregulated genes in wild-type samples were enriched for pathways related to calcium signaling and cardiac muscle contraction, including substantial overlap with KEGG pathways for hypertrophic cardiomyopathy, dilated cardiomyopathy, and arrhythmogenic right ventricular cardiomyopathy. This pattern indicates a transcriptional deprioritization of specialized contractile machinery during acute genotoxic stress. Such reprogramming represents a plausible early molecular event preceding the contractile dysfunction clinically manifested as reduced ejection fraction following chronic doxorubicin exposure, although the present dataset captures only the acute 16-hour window.
+
+- Notably, neither p53 pathway activation nor suppression of contractile genes was observed in Top2b knockout hearts. If Top2b were incidental to doxorubicin-induced toxicity, an attenuated but qualitatively similar transcriptional signature would be anticipated in the knockout. This finding indicates that, in the absence of Top2b, doxorubicin fails to engage the canonical genotoxic response pathway altogether, rather than eliciting a diminished version of the same injury. 
+
+## References:
+
+1. Zhang et al. Transcriptomic profiling reveals p53 as a key regulator of doxorubicin-induced cardiotoxicity. Cell Death Discovery (2019).
+
+2. Ceja et al. A review of the pathophysiological mechanisms of doxorubicin-induced cardiotoxicity and aging. npj Aging (2024).
+
+3. Zhang et al. Identification of the molecular basis of doxorubicin-induced cardiotoxicity. Nature Medicine (2012).
+
 ## Acknowledgement:
 
 This project was completed as part of my RNA-seq learning journey and was inspired by concepts and workflows introduced in the DataCamp course ["Differential Expression Analysis with Limma in R"](https://app.datacamp.com/learn/courses/differential-expression-analysis-with-limma-in-r). Portions of the analysis structure and some code elements were adapted from course exercises and instructional materials for educational purposes. The transcriptomic analysis, downstream analyses, and interpretation were conducted as a public reanalysis project.
