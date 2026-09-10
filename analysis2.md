@@ -66,19 +66,19 @@ The top 50 most variable genes cluster samples into two genotype clusters, with 
 
 ### Volcano plots:
 
-![](/images/volc_wt_16.jpg)
+![](/images/dox_wt_16.jpg)
 
-![](/images/volc_wt_72.jpg)
+![](/images/dox_wt_72.jpg)
 
 Both wild type contrasts show a broad, roughly symmetric spread of up and down regulated genes, with the 16hr response noticeably larger than the 72hr one, matching the DEG counts above.
 
 ### Pathway enrichment:
 
-![](/images/gsea_dox_wt_16.jpg)
+![](/images/gsea_dox_wt16.jpg)
 
 At 16hr, GSEA in wild type shows the same pattern as the 16 hour only analysis: p53 signaling and DNA replication up, cardiac contractile and cardiomyopathy related pathways down. The top hit, KEGG_SYSTEMIC_LUPUS_ERYTHEMATOSUS, is again the strongest signal by a wide margin (padj = 3.2 x 10⁻¹⁷). 
 
-![](/images/gsea_dox_wt_72.jpg)
+![](/images/gsea_dox_wt72.jpg)
 
 At 72hr, wild type shows a top hit of KEGG_DRUG_METABOLISM_CYTOCHROME_P450 (padj = 8.9 x 10⁻¹²), along with oxidative phosphorylation and several cardiomyopathy related pathways among the most significantly downregulated. This is a match to the paper's 72 hour finding, defective mitochondrial function and oxidative phosphorylation, specifically in wild type.
 
